@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    /* height: 100dvh; */
+    background: #212529;
+}
+
+.navigasi{
+    background-color: #212529;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    padding: 0 50px;
+}
+
+.navigasi h2{
+    color: white;
+}
+
+.navigasi ul{
+    display: flex;
+}
+
+.navigasi ul li{
+    list-style: none;
+}
+
+.navigasi ul li:hover a{
+    font-weight: bold;
+}
+
+.navigasi ul li a{ 
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 40px;
+    transition: color 0.3s ease;
+}
+
+.hire-btn{
+    background: crimson;
+    padding: 6px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.hire-btn:hover{
+    color: crimson;
+    background-color: white;
+}
+
+.hero{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    color: #fff;
+}
+
+h2 span{
+    color:crimson
+}
+
+h4{
+    color: #fff;
+}
+
+img{
+    height: 250px;
+}
+
+.hero p{
+    color: #fff;
+    margin: 0 50px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.tentang{
+    color: #fff;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 50px 50px 50px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3:hover{
+    color: crimson;
+}
+
+.tentang p{
+    margin-bottom: 30px;
+}
+
+.tentang button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skill{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 50px 50px 0 50px;
+}
+
+.keahlian{
+    margin: 20px 50px 50px 50px;
+}
+
+.keahlian p{
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gambar img{
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.portfolio h5{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 50px 50px 0 50px;
+}
+
+.item{
+    color: #fff;
+    background-color: rgba(220,20,60,0.2);
+    border-radius: 10px;
+    float: left;
+    width: 30%;
+    margin: 30px 0 20px 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.item img{
+    height: 150px;
+}
+
+.info{
+    height: 100px;
+    margin-top: 20px;
+    font-size: 15pxs;
+}
+
+.info p{
+    margin: 20px 0 20px 0;
+    font-size: 12px;
+}
+
+.footer{
+    color: #fff;
+    margin: 50px 50px 50px 50px;
+    display: block;
+}
+
+.kontak{
+    font-size: 30px;
+}
+
+.kontak-1{
+    margin: 50px 0 0 50px;
+}
+
+.kontak-1 h4{
+    margin: 0 0 20px 0;
+}
+.kontak-1 a{
+    text-decoration: none;
+    color: #7b7b7b;
+    transition: color 0.3s ease;
+}
+
+.kontak-2{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    flex: 3;
+}
